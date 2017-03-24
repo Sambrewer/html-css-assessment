@@ -3,15 +3,13 @@ body {
   background: url(./img/main-bg.jpeg)no-repeat;
   background-size: cover;
   font-family: 'Baloo Bhaina', cursive;
-}
-.main {
   height: 100vh;
 }
 .navbar {
   display: flex;
   position: relative;
   margin-top: 10px;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
 }
 .hamburger {
   height: 50px;
@@ -67,6 +65,9 @@ body {
     }
     .fblogo {
       display: none;
+    }
+    .navbar {
+      margin-bottom: 200px;
     }
     .twlogo {
       display: none;
