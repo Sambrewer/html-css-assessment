@@ -4,11 +4,14 @@ body {
   background-size: cover;
   font-family: 'Baloo Bhaina', cursive;
 }
+.main {
+  height: 100vh;
+}
 .navbar {
   display: flex;
   position: relative;
   margin-top: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .hamburger {
   height: 50px;
@@ -20,14 +23,21 @@ body {
   color: white;
   font-size: 2em
 }
-.social {
+.fblogo {
+  height: 40px;
+  width: 40px;
   position: absolute;
-  right: 15px;
-  margin-left: 10px;
+  top: 5px;
+  right: 50px;
+  /*margin-top: 5px; */
 }
-.social img {
-  height: 35px;
-  width: 35px;
+.twlogo {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  /*margin-top: -5px;*/
 }
 .content {
   display: flex;
@@ -35,7 +45,7 @@ body {
   width: 50%;
   display: block;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 175px;
   text-align: center;
   color: #fff;
 }
@@ -55,7 +65,10 @@ body {
     .hamburger {
       display: none;
     }
-    .social {
+    .fblogo {
+      display: none;
+    }
+    .twlogo {
       display: none;
     }
     .navbar {
